@@ -1,0 +1,50 @@
+<?php
+
+//常用数据类型
+
+$name="tom";
+$age=18;
+$height=180.5;
+$flag=false;
+$hobby; //默认值为null,等价于$hobby=null
+$nums=array(1,2);
+
+// echo gettype($name); //获取变量的数据类型
+// var_dump($name);
+$a=3.1415926;
+echo (int)$a;
+/* var_dump($name); //输出变量的数据类型和值
+echo "<br/>";
+var_dump($age);
+echo "<br/>";
+var_dump($height);
+echo "<br/>";
+var_dump($flag);
+echo "<br/>";
+var_dump($hobby);
+echo "<br/>";
+var_dump($nums);
+
+
+//数据类型转换
+echo "<br/>";
+var_dump((string)3.14);
+echo "<br/>";
+var_dump((int)"23.5hello");
+echo "<br/>";
+var_dump((float)"23.5hello");
+echo "<br/>";
+var_dump((bool)0);
+echo "<br/>";
+var_dump((bool)null);
+echo "<br/>";
+
+
+//关于bool类型
+//使用echo输出布尔值
+
+echo true; //输出true，页面显示为1
+echo false; //输出false,页面无任何显示 */
+
+
+?>
